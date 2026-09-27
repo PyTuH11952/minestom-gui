@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.minebreak",
+    "module": "minestom-gui",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "minestom-gui-1.0.0.jar",
+          "url": "minestom-gui-1.0.0.jar",
+          "size": 20819,
+          "sha512": "b9d9cf8801367ee91891df2c39c34ad3fae4c4ff9d973cb9c5ae7145378da3befb321093f497b55ce79001635ee50ca776561ed2b71b26aa147dc847e3de37d4",
+          "sha256": "fcf6f3029027d967d6385660001418ae774cb495bd64db74dc8c60af76a95203",
+          "sha1": "f68d75c1178a33d5022d502f66d9abf5ffca2dac",
+          "md5": "3516fecd8d2dbbc4ce69d2bb3b442af2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.minestom",
+          "module": "minestom",
+          "version": {
+            "requires": "2026.01.08-1.21.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "minestom-gui-1.0.0.jar",
+          "url": "minestom-gui-1.0.0.jar",
+          "size": 20819,
+          "sha512": "b9d9cf8801367ee91891df2c39c34ad3fae4c4ff9d973cb9c5ae7145378da3befb321093f497b55ce79001635ee50ca776561ed2b71b26aa147dc847e3de37d4",
+          "sha256": "fcf6f3029027d967d6385660001418ae774cb495bd64db74dc8c60af76a95203",
+          "sha1": "f68d75c1178a33d5022d502f66d9abf5ffca2dac",
+          "md5": "3516fecd8d2dbbc4ce69d2bb3b442af2"
+        }
+      ]
+    }
+  ]
+}
